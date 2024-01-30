@@ -1,16 +1,42 @@
 import React from "react";
 import "./LoginPage.css";
-import LoginPage from "./LoginPage"; // Add the missing import statement for LoginPage
 
-function UrbanUptakeloginpage() {
+function UrbanUptakeLoginPage() {
     return (
         <div className="login">
             <div className="UrbanUptake">
-                <div className="UrbanUptaketext">
+                <div className="UrbanUptakeText">
                     UrbanUptake
+                </div>
+                <div className="title">
+                   Your Local Market Awaits. <br></br> Buy, Sell, Thrive!
+                </div>
+            </div>
+            <div className="loginContainer">
+                <div className="loginForm">
+                    <input type="email" placeholder="Email Address"/>
+                    <br></br>
+                    <input type="Password" placeholder="Password"/>
+                    <br></br>
+                    <button className="btn">
+                        Login
+                    </button>
+                    <br></br>
+                </div>
+                <div className="I forgot">
+                    <button className="forgotPasswordBtn"> 
+                    Forgot my password </button>
+                    <br></br>
+                </div>
+                <div className="createAccount">
+                    <br></br>
+                    <button className="btn">
+                        Create Account?
+                    </button>
                 </div>
             </div>
         </div>
     );
 }
-export default LoginPage
+
+export default UrbanUptakeLoginPage;
