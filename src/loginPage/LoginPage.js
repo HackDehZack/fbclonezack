@@ -1,5 +1,7 @@
 import React from "react";
-import LoginPage from "./LoginPage.css";
+import "./LoginPage.css";
+import LoginPage from "./LoginPage"; // Add the missing import statement for LoginPage
+
 function UrbanUptakeloginpage() {
     return (
         <div className="login">
