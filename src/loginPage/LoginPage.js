@@ -1,9 +1,8 @@
 import React from "react";
 import "./LoginPage.css";
-
 function UrbanUptakeLoginPage() {
     return (
-        <div className="login">
+        <div className="Login">
             <div className="UrbanUptake">
                 <div className="UrbanUptakeText">
                     UrbanUptake
