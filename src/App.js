@@ -13,10 +13,9 @@ function App() {
         <Route path='/LoginPage' exact={true} component={LoginPage}/>
         <Route path='/HeaderArea' exact={true} component={HeaderArea}/>
       </Switch>
-
-      
     </div>
   );
 }
 
 export default App;
+ 

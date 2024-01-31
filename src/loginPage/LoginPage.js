@@ -19,7 +19,7 @@ function UrbanUptakeLoginPage() {
                     <input type="Password" placeholder="Password"/>
                     <br></br>
                     <button className="btn">
-                        <link to="/HeaderArea"> Login </link>
+                        <Link to="/HeaderArea"> Login </Link>
                     </button>
                     <br></br>
                 </div>
